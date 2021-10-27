@@ -1,0 +1,88 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Josefin+Sans:ital,wght@1,300&family=Roboto+Mono:wght@300&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5em;
+  background-image: url("images/beer_gif.gif");
+  background-size: cover
+}
+
+h1 {
+  font-size: 40px;
+  color: #ffbc2b;
+  text-shadow: 2px 2px #555556;
+}
+
+h2, h3, h4 {
+    color: #3acfc3;
+    font-size: 32px;
+    font-weight: 800;
+    text-shadow: 2px 2px #555556;
+}
+
+a {
+    font-family: 'Comfortaa', sans-serif;
+    text-decoration: none;
+    color: #545cca;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p1, p2, p3 {
+  color: #8b8b8b;
+}
+
+.container {
+    width: 700px;
+    margin: 40px
+    auto;
+}
+
+.card {
+    background-color: white;
+    opacity: 0.9;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+div {
+    display: block;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+.text-center {
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.fab {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.circular_image {
+  border-radius: 60%;
+}
